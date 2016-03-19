@@ -1,0 +1,58 @@
+.portfolio-categ {
+    margin-bottom: 60px;
+    list-style: none;
+    overflow: hidden;
+     li {
+	    float: left;
+	    margin-right: 10px;
+	    a {
+		    color: $gris-dark;
+		    display: block;
+		    padding: 10px 15px;
+		    font-family: bebasregular;
+		}
+	 }
+	 li:first-child {
+			    font-family: bebasregular;
+			    font-size: 20px;
+			    padding: 10px 15px 10px 0px;
+	 }
+}
+
+.portfolio-categ li a:hover, .portfolio-categ li.active a {
+    background: $naranja;
+    color: #fff;
+}
+.portfolio_area{
+	img{
+		width: 100%;
+		border: 1px solid $gris;
+	    background: $blanco;
+	    padding: 1px;
+	}
+	.row{
+		margin-bottom: 20px;
+	}
+}
+
+.home-portfolio-text {
+    border: 1px solid $gris;
+    padding-left: 8px;
+    width: 100%;
+    a {
+	    color: $gris-dark;
+	    display: block;
+	    font-family: bebasregular;
+	    font-size: 16px;
+	}
+	p {
+	    font-size: 11px;
+	    color: $naranja;
+	    font-family: bebasregular;
+	}
+	h2 {
+	    font-size: 25px;
+	    line-height: 30px;
+	    margin-bottom: 0;
+	}
+}

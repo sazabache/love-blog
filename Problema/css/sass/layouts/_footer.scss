@@ -1,0 +1,62 @@
+.footer_area {
+    background: none repeat scroll 0 0 $salmon;
+    margin-top: 40px;
+}
+.footer {
+    background: none repeat scroll 0 0 $naranja;
+    border-left: 10px solid $blanco;
+    border-right: 10px solid $blanco;
+    margin: 0 auto;
+    padding: 20px 0;
+    .single_footer_container {
+    	margin-left: -25px;
+	}
+}
+
+.fix{
+	overflow: hidden;
+}
+.single_footer {
+	    width: 275px;
+	    color: $blanco;
+	    margin-left: 25px;
+	    padding: 10px;
+		h2 {
+		    font-family: bebasregular;
+		    font-size: 25px;
+		    line-height: 30px;
+		}
+}
+.social_area {
+    margin-left: -7px;
+    margin-top: 15px;
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	     li {
+		    float: left;
+		    a {
+			    display: block;
+			    margin-left: 7px;
+			    padding: 6px 16px;
+			    text-indent: -99999px;
+		    }
+	    }
+	}
+}
+.facebook {
+    background: url("../images/social.png");
+}
+.twitter {
+    background: url("../images/social.png") -35px 0 ;
+}
+.email {
+    background: url("../images/social.png")-70px 0;
+}
+.feed {
+    background: url("../images/social.png")-105px 0;
+}
+.vimeo {
+    background: url("../images/social.png")-140px 0;
+}

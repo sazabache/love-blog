@@ -1,0 +1,20 @@
+@media (max-width: 767px){
+	.ei-slider {
+    height: 97px !important;
+	}
+	
+	.single_service {
+		h2 {
+	    line-height: 76px;
+		}
+	}
+	img {
+    width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	img {
+    width: 100%;
+	}
+}

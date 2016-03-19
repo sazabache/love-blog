@@ -1,0 +1,60 @@
+::-webkit-input-placeholder{
+	color: $naranja;
+}
+
+.cf_container {
+    margin-top: 35px;
+    .address{
+		p {
+		    margin-bottom: 20px;
+		  }
+		span {
+		    color:$naranja;
+			}
+	}
+}
+
+.cf{
+	.cf_txt {
+	    border: 1px solid $naranja !important;
+	    height: 30px;
+	    width: 60%;
+	    outline: none;
+	    font-family: bebasregular;
+	}
+    input[type=text], input[type=password], textarea {
+	    border: 1px solid #ddd;
+	    padding: 5px;
+	}
+	.cf_email {
+	    height: 40px;
+	    width: 63%;
+	    padding-left: 5px;
+	    border: 1px solid $naranja;
+	    outline: none;
+	    font-family: bebasregular;
+	}
+	.cf_msg {
+	    width: 100%;
+	}
+	.cf_msg {
+	    border: 1px solid $naranja;
+	    height: 200px;
+	    overflow: auto;
+	    font-size: 14px;
+	    outline: none;
+	    font-family: bebasregular;
+	}
+	.cf_submit {
+	    background: none repeat scroll 0 0 #E8663C;
+	    border: medium none;
+	    color: #FFFFFF;
+	    font-family: bebasregular;
+	    font-size: 23px;
+	    height: 45px;
+	    outline: medium none;
+	    width: 103%;
+	    cursor: pointer;
+	}
+}
+
